@@ -247,7 +247,7 @@ for(let i=0;i<6;i++){
 
 <div class="center" id="startScreen">
   <h1>Hey Ans 💖</h1>
-  <p>I have something special for you.</p>
+  <p>Will you be my valentine :3 ?</p>
   <div class="gate">
     <div class="door" onclick="accept()">YES</div>
     <div class="door" id="noDoor">NO</div>
@@ -340,7 +340,7 @@ function releaseJirachi(){
   setTimeout(()=>{
     dialogue.style.display="block";
     typeText(dialogue,
-      "⭐ I WISH you much love and care,\nbecause Ansley…\nI choose you. 💙"
+      "⭐ I WISH you much love and care,\nbecause Ansley…\nI will always choose you. 💙"
     );
     document.querySelectorAll(".corner-heart")
       .forEach(h=>h.style.display="block");
@@ -350,7 +350,7 @@ function releaseJirachi(){
 let hearts=0;
 const cornerMemories=[
   {img:"corner1.jpg",text:"One of my favorite moments.",type:"Fairy",cls:"fairy"},
-  {img:"corner2.jpg",text:"This is when I knew.",type:"Psychic",cls:"psychic"},
+  {img:"corner2.jpg",text:"This made me fold",type:"Psychic",cls:"psychic"},
   {img:"corner3.jpg",text:"You make everything brighter.",type:"Electric",cls:"electric"},
   {img:"corner4.jpg",text:"Forever my favorite person.",type:"Normal",cls:"normal"}
 ];
@@ -378,7 +378,7 @@ function openFinal(){
   battle.play();
   finalModal.style.display="flex";
   typeText(finalText,
-    "Ansley,\n\nYou are my favorite encounter.\nNo rerolls. No resets.\nI choose you — always. 💖"
+    "Ansley,\n\nYou are my favorite wild encounter.\nI want no do-overs, not resets\nBecause I choose you — always. 💖"
   );
 }
 </script>
